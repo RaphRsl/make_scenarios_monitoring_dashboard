@@ -3,6 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.9
 // @description  Fetch/send full blueprint JSON + URL on save and show in-page green toast in top-right
+// @downloadURL  https://raw.githubusercontent.com/raphrsl/make_scenarios_monitoring_dashboard/main/make_export_script.user.js
+// @updateURL    https://raw.githubusercontent.com/raphrsl/make_scenarios_monitoring_dashboard/main/make_export_script.user.js
 // @match        https://*.make.com/*/scenarios/*
 // @connect      *.make.com
 // @connect      script.google.com
