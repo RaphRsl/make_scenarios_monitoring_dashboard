@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         V19 - Make: Auto Send Blueprint on Save with In-Page Green Toast + API token secured
+// @name         Make: Auto Send Blueprint on Save with In-Page Green Toast + API token secured
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      0.19.1
 // @description  Fetch/send full blueprint JSON + URL on save and show in-page green toast in top-right
 // @downloadURL  https://raw.githubusercontent.com/raphrsl/make_scenarios_monitoring_dashboard/main/make_export_script.user.js
 // @updateURL    https://raw.githubusercontent.com/raphrsl/make_scenarios_monitoring_dashboard/main/make_export_script.user.js
