@@ -150,8 +150,12 @@ function showToast(msg) {
                   showToast('Save failed');
                 }
               } catch (e) {
-                console.warn('[AutoSend] Invalid JSON response');
-                showToast('Unexpected response');
+                  // If parsing fails, handle as HTML response
+                  const parser = new DOMParser();
+                  const doc = parser.parseFromString(res.responseText, 'text/html');
+                  const errorMsg = doc.querySelector('p.errorMessage')?.textContent?.trim() || 'Unexpected HTML response';
+                  console.warn('[AutoSend] HTML error:', errorMsg);
+                  showToast(errorMsg);
               }
             },
             onerror(err) {
