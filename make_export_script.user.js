@@ -20,7 +20,7 @@
   'use strict';
 
   // Web App URL
-  const webAppUrl = 'https://script.google.com/macros/s/AKfycbyVf7d68oC7Tdsmo5ga4x478ejsOOcfWiUxiDHD1W3BJnas4LA0DpJgDN9KUz4N7Efo/exec';
+  const webAppUrl = 'https://script.google.com/macros/s/AKfycbxWChkYg2TdqgvysADM06NVEHiPIJCsQ5exWYHldenrhd6ql1_mFoChh0VNj8j7uu9o/exec';
 
   // Retrieve stored API token
   let apiToken = GM_getValue('apiToken', '');
